@@ -1,0 +1,28 @@
+/* 1rem = 15px
+15rem = 240px */
+
+
+.container {
+    max-width: 15rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px rgba(50 50 50 .1);
+}
+
+body{
+    background: whitesmoke;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.flag {
+  width: 100%;
+}
